@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.nav-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 30px;
+}
+
+.dash{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-menu a.active{
+    color: #c1cdff;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-profile{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-profile .name{
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav-profile .role{
+    color: #3f3f3f;
+    font-size: 12px;
+}
+
+.nav-profile .profile{
+    background-color: #535ffe;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero{
+    background-color: #d1cdcd;
+    padding: 20px 30px;
+    
+}
+
+.welcome{
+    margin-bottom: 20px;
+}
+
+.welcome .note{
+    color: #333;
+    font-size: 12px;
+}
+
+.cards{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.profile-card .profile{
+    
+    background-color: #535ffe;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.profile-info .name {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.profile-info .role {
+    font-size: 12px;
+    color: #888;
+}
+
+.progress {
+    margin-bottom: 14px;
+}
+
+.p-title {
+    font-size: 11px;
+    color: #888;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+
+.profile-card{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+h3{
+    margin-top: 20px;
+}
+
+.bar {
+    height: 8px;
+    border-radius: 6px;
+    background-color: #eee;
+    margin-bottom: 4px;
+}
+
+.profile-card .progress:nth-child(1) .bar {
+    background-color: #536FFE;
+    width: 80%;
+}
+
+.profile-card .progress:nth-child(2) .bar {
+    background-color: red;
+    width: 70%;
+}
+
+.percent {
+    font-size: 12px;
+    color: #555;
+}
+
+
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.cards-2{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding: 20px 30px;
+}
+
+.pcard1{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 30px;
+    
+    
+}
+
+.pcard1 .badge{
+    background-color: #c1cdff;
+}
+
+.pcard1 .bar{
+    background-color: #c1cdff;
+    width: 90%;
+}
+
+.pcard2{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 30px;
+    
+}
+
+.pcard2 .badge{
+    background-color: #9efe1e;
+}
+
+.pcard2 .bar{
+    background-color: #9efe1e;
+    width: 50%;
+}
+
+.pcard3{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px 30px;
+    
+    
+}
+
+.pcard3 .badge{
+    background-color: #febd57;
+}
+
+.pcard3 .bar{
+    background-color: #febd57;
+    width: 60%;
+}
+
+.writing{
+    color: #333;
+    margin: 8px 0 12px;
+}
+
+.rev {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.time {
+    font-size: 12px;
+    color: #aaa;
+    margin-top: 20px;
+}
+
+.tasks{
+    display: grid;
+    gap: 20px;
+}
+.task-title {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.task-num {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.task1 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 24px;
+    
+}
